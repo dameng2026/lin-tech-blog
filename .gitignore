@@ -1,0 +1,78 @@
+# ========== Dependencies ==========
+node_modules/
+
+# ========== Build Output ==========
+dist/
+dist-ssr/
+
+# ========== Environment Files ==========
+.env
+.env.development
+.env.production
+.env.local
+.env.*.local
+
+# ========== IDE / Editor ==========
+.vscode/
+.idea/
+*.sw?
+*.swo
+*~
+.cursorrules
+.cursor/
+
+# ========== OS Files ==========
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ========== Logs ==========
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+build/
+*.egg
+
+# ========== Database ==========
+*.db
+*.sqlite
+*.sqlite3
+
+# ========== Package Manager Lock Conflicts ==========
+package-lock.json
+yarn.lock
+
+# ========== Git Hooks (local install only) ==========
+**/.husky/_
+
+# ========== Auto-generated ==========
+*.auto-import.json
+
+# ========== Project-specific Runtime ==========
+/backend/query
+/backend/stop
+
+# ========== Dev Artifacts (not for public) ==========
+/.superpowers/
+/.trae/
+/docs/
+/CATEGORY_OPTIMIZATION_REPORT.md
+/REPAIR_REPORT.md
+/REPOST_FEATURE_REPORT.md
+/login.json

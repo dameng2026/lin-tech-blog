@@ -1,0 +1,26 @@
+import { AppRouteRecord } from '@/types/router'
+
+export const dashboardRoutes: AppRouteRecord = {
+  name: 'Dashboard',
+  path: '/dashboard',
+  component: '/index/index',
+  meta: {
+    title: '仪表盘',
+    icon: 'ri:pie-chart-line',
+    roles: ['R_SUPER', 'R_ADMIN', 'user']
+  },
+  children: [
+    {
+      path: 'console',
+      name: 'Console',
+      component: '/dashboard/console',
+      meta: {
+        title: '数据总览',
+        icon: 'ri:home-smile-2-line',
+        keepAlive: false,
+        fixedTab: true,
+        roles: ['R_SUPER', 'R_ADMIN', 'user']
+      }
+    }
+  ]
+}

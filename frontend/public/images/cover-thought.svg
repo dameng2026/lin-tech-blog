@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe"/>
+      <stop offset="100%" style="stop-color:#00f2fe"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="650" cy="120" r="250" fill="url(#glow1)"/>
+  <circle cx="200" cy="480" r="180" fill="#ffffff" opacity="0.05"/>
+  <!-- Lightbulb / idea icon -->
+  <text x="400" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="80" fill="#ffffff" opacity="0.15">💡</text>
+  <!-- Thought lines -->
+  <path d="M250,320 Q300,300 350,320 Q400,340 450,320 Q500,300 550,320" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.15"/>
+  <path d="M280,350 Q320,335 360,350 Q400,365 440,350 Q480,335 520,350" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.1"/>
+  <!-- Decorative -->
+  <circle cx="100" cy="80" r="3" fill="#ffffff" opacity="0.3"/>
+  <circle cx="720" cy="520" r="4" fill="#ffffff" opacity="0.2"/>
+  <circle cx="150" cy="520" r="2" fill="#ffffff" opacity="0.3"/>
+  <circle cx="680" cy="80" r="2" fill="#ffffff" opacity="0.25"/>
+  <circle cx="500" cy="100" r="2" fill="#ffffff" opacity="0.2"/>
+</svg>
