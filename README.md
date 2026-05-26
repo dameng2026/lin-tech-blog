@@ -13,7 +13,7 @@ Lin's Tech Blog 是一套完整的博客解决方案，包含三个独立模块�
 | 模块 | 端口 | 描述 |
 |------|------|------|
 | **前台博客** | 5173 | 面向访客的博客展示页面，支持文章浏览、项目展示、友链、留言板等 |
-| **后台管理** | 3006 | 管理员控制台，支持内容管理、数据监控、系统设置等。基于 [Art Design Pro](https://github.com/art-design-pro/art-design-pro) 框架构建 |
+| **后台管理** | 3006 | 管理员控制台，支持内容管理、数据监控、系统设置等。基于 [Art Design Pro](https://github.com/Daymychen/art-design-pro) 框架构建 |
 | **后端 API** | 8000 | FastAPI 构建的 RESTful API，提供数据接口和业务逻辑 |
 
 ## ✨ 功能亮点
